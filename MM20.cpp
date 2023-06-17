@@ -21,23 +21,23 @@ int main(){
 
         for(int i = cnt - 1; i >= 0; i--){
             if(ans[i] == 10){  
-                printf("A");  
+                cout << 'A'; 
             }  
             else if(ans[i] == 11){  
-                printf("B");  
+                cout << 'B';
             }  
             else if(ans[i] == 12){  
-                printf("C");  
+                cout << 'C';
             }  
             else if(ans[i] == 13){  
-                printf("D");  
+                cout << 'D';
             }  
             else if(ans[i] == 14){  
-                printf("E");  
+                cout << 'E';
             }  
             else if(ans[i] == 15){  
-                printf("F");  
-            }  
+                cout << 'F';
+            } 
             else{  
                 cout << ans[i];
             }  
